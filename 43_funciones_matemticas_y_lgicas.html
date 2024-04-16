@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>4.3. Funciones Matemáticas y Lógicas | Hojas de cálculo </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="IEDA, Ana Echarri" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-32"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Hojas de cálculo</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Hojas de cálculo</a></li>
+   <li><a href="1_definicin_y_programas.html" class="daddy">1. Definición y programas</a>
+   <ul class="other-section">
+      <li><a href="11_aplicaciones_de_la_hoja_de_clculo.html" class="no-ch">1.1. Aplicaciones de la hoja de cálculo</a></li>
+      <li><a href="12_trabajo_con_open_calc.html" class="no-ch">1.2. Trabajo con Open Calc</a></li>
+   </ul>
+   </li>
+   <li><a href="2_entorno_de_trabajo_y_referencias.html" class="daddy">2. Entorno de trabajo y referencias</a>
+   <ul class="other-section">
+      <li><a href="21_rea_de_trabajo_filas_columnas_y_celdas.html" class="no-ch">2.1. Área de trabajo: filas, columnas y celdas</a></li>
+      <li><a href="22_rangos.html" class="no-ch">2.2. Rangos</a></li>
+      <li><a href="23_referencia_a_celdas.html" class="no-ch">2.3. Referencia a celdas</a></li>
+      <li><a href="24_referencia_a_hojas_y_libros.html" class="no-ch">2.4. Referencia a hojas y libros</a></li>
+   </ul>
+   </li>
+   <li><a href="3_formatos_e_impresin.html" class="daddy">3.- Formatos e impresión</a>
+   <ul class="other-section">
+      <li><a href="31_formato_de_celdas.html" class="no-ch">3.1. Formato de celdas</a></li>
+      <li><a href="32_otros_elementos.html" class="no-ch">3.2. Otros elementos</a></li>
+      <li><a href="33_visualizacin_e_impresin_de_una_hoja.html" class="no-ch">3.3. Visualización e impresión de una hoja</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="4_frmulas_y_funciones.html" class="current-page-parent daddy">4. Fórmulas y funciones</a>
+   <ul>
+      <li><a href="41_asistente_de_funciones.html" class="no-ch">4.1. Asistente de funciones</a></li>
+      <li><a href="42_clasificacin_de_funciones.html" class="no-ch">4.2. Clasificación de funciones</a></li>
+      <li id="active"><a href="43_funciones_matemticas_y_lgicas.html" class="active no-ch">4.3. Funciones Matemáticas y Lógicas</a></li>
+      <li><a href="44_funciones_de_fecha_y_hora.html" class="no-ch">4.4. Funciones de Fecha y hora</a></li>
+      <li><a href="45_funciones_estadsticas.html" class="no-ch">4.5. Funciones Estadísticas</a></li>
+   </ul>
+   </li>
+   <li><a href="5_grficos.html" class="daddy">5. Gráficos</a>
+   <ul class="other-section">
+      <li><a href="51_elementos.html" class="no-ch">5.1. Elementos</a></li>
+      <li><a href="52_trabajar_con_grficos_con_el_asistente.html" class="no-ch">5.2. Trabajar con gráficos con el Asistente</a></li>
+      <li><a href="53_modificar_un_grfico.html" class="no-ch">5.3. Modificar un gráfico</a></li>
+      <li><a href="54_tipos_de_grficos.html" class="daddy">5.4. Tipos de gráficos</a>
+      <ul class="other-section">
+         <li><a href="541_grficos_de_columnas_y_de_barras.html" class="no-ch">5.4.1. Gráficos de columnas y de barras</a></li>
+         <li><a href="542_grficos_circulares.html" class="no-ch">5.4.2. Gráficos Circulares</a></li>
+         <li><a href="543_grficos_de_rea.html" class="no-ch">5.4.3. Gráficos de área</a></li>
+         <li><a href="544_grficos_de_lnea_y_de_dispersin.html" class="no-ch">5.4.4. Gráficos de línea y de dispersión</a></li>
+      </ul>
+      </li>
+      <li><a href="55_visualizacin_e_impresin.html" class="no-ch">5.5. Visualización e impresión</a></li>
+   </ul>
+   </li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="aviso_legal.html" class="no-ch">Aviso Legal</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="42_clasificacin_de_funciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="44_funciones_de_fecha_y_hora.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">4.3. Funciones Matemáticas y Lógicas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id161">
+<div class="iDevice emphasis0">
+<div id="ta161_1" class="block iDevice_content">
+<h3 class=" EducaAnd_COM" align="justify">Funciones matemáticas</h3>
+<div align="justify">Aparentemente, este tipo de funciones son las más conocidas ya que en esta categoría están las que se utilizan con más frecuencia.</div>
+<p></p>
+<div align="justify">Desde la función "ABS (numero)", que devuelve el valor absoluto, hasta la función "TRUNCAR (número;núm_decimales)", <span style="background-color: #ffffff;">que</span> devuelve el valor truncado de un número, hay una gran cantidad de funciones que seguramente habrás utilizado. Vamos a estudiar algunas de ellas:</div>
+<p></p>
+<div align="justify">
+<table class="EducaAnd_bordeCOM" style="height: 90px; margin-left: auto; margin-right: auto;" cellspacing="5" cellpadding="5" border="1">
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 250px;"><strong>SUMA (número_1;número_2)</strong></td>
+<td style="height: 18px; width: 541.217px;">Devuelve la suma de los números o de los valores contenidos en las celdas o de un rango.</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 250px;"><strong>REDONDEAR (número;núm_decimales)</strong></td>
+<td style="height: 18px; width: 541.217px;">Redondea un número o el valor numérico de una celda al número de decimales indicado.</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 250px;"><strong>POTENCIA (número;potencia)</strong></td>
+<td style="height: 18px; width: 541.217px;">Devuelve el resultado de elevar el argumento número a la potencia indicada.</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 250px;"><strong>FACT (número)</strong></td>
+<td style="height: 18px; width: 541.217px;">Calcula el factorial del número.</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 250px;"><strong>CONTAR.SI (área;criterios)</strong></td>
+<td style="height: 18px; width: 541.217px;">Cuenta los argumentos que cumplen las condiciones dadas.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div align="justify">Evidentemente, no podemos explicar en el tema todas las funciones matemáticas y trigonométricas que podrías utilizar, pero en el programa OOo Calc encontrarás todas las funciones trigonométricas (cálculo de seno, coseno, tangente, arcoseno, seno hiperbólico, etc.), diferentes funciones aritméticas (producto, raíz, logaritmos, múltiplos, etc.) y funciones condicionales (contar si, sumar si).</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ClozeIdevice em_iDevice em_iDevice_question" id="id162">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Comprueba lo aprendido</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta162_21" class="block instructions iDevice_content">
+<div align="justify">El siguiente ejercicio muestra una hoja de notas en la que se muestra el número de suspensos y el número de aprobados. En este caso, los alumnos son pocos y sólo hay que contar una columna de notas, pero ¿qué pasaría si tuvieses que realizar esta operación en muchos alumnos y con varias columnas de notas?. Te serviría esta hoja de cálculo si utilizases la función CONTAR.SI.</div>
+<div align="justify"></div>
+<div align="justify"></div>
+<div align="justify"><strong>¿Cómo escribirías dichas funciones?</strong></div>
+<p></p>
+</div>
+
+    <div class="activity" id="activity-162_22"><form name="cloze-form-162_22" action="#" class="activity-form cloze-activity-form"><div id="cloze162_22"><input type="hidden" name="clozeFlag162_22.strictMarking" id="clozeFlag162_22.strictMarking" value="true"/>
+<input type="hidden" name="clozeFlag162_22.checkCaps" id="clozeFlag162_22.checkCaps" value="false"/>
+<input type="hidden" name="clozeFlag162_22.instantMarking" id="clozeFlag162_22.instantMarking" value="false"/>
+<table style="width: 405px;" cellspacing="10" border="0">
+<tbody>
+<tr>
+<td style="border: 1px solid #000000; width: 166.183px;">APROBADOS:</td>
+<td style="width: 198.817px;"><label for="clozeBlank162_22.0" class="sr-av">Rellenar huecos (1):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank162_22.0" style="width:23ch" /><span style="display:none" id="clozeAnswer162_22.0">JXUwMDY1JXUwMDdlJXUwMDBjJXUwMDAxJXUwMDFhJXUwMDE1JXUwMDEzJXUwMDdjJXUwMDdkJXUw
+MDFhJXUwMDYxJXUwMDZhJXUwMDcxJXUwMDA5JXUwMDc4JXUwMDczJXUwMDA1JXUwMDBmJXUwMDE5
+JXUwMDFjJXUwMDAzJXUwMDA4JXUwMDE3
+</span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #000000; width: 166.183px;">SUSPENSOS:</td>
+<td style="width: 198.817px;"><label for="clozeBlank162_22.1" class="sr-av">Rellenar huecos (2):</label><input class="autocomplete-off" type="text" value="" id="clozeBlank162_22.1" style="width:23ch" /><span style="display:none" id="clozeAnswer162_22.1">JXUwMDY1JXUwMDdlJXUwMDBjJXUwMDAxJXUwMDFhJXUwMDE1JXUwMDEzJXUwMDdjJXUwMDdkJXUw
+MDFhJXUwMDYxJXUwMDZhJXUwMDcxJXUwMDA5JXUwMDc4JXUwMDczJXUwMDA1JXUwMDBmJXUwMDE5
+JXUwMDFlJXUwMDA5JXUwMDE3JXUwMDBi
+</span></td>
+</tr>
+</tbody>
+</table><div class="block iDevice_buttons"><p><input class="button" type="submit" name="submit162_22" value="Enviar"  id="submit162_22" />
+<input type="button" name="restart162_22" value="Reiniciar" style="display:none" id="restart162_22" onclick="$exe.cloze.restart('162_22')" />
+ <input type="button" name="162_22showAnswersButton" value="Mostrar las respuestas" style="display:none" id="showAnswersButton162_22" onclick="$exe.cloze.fillInputs('162_22')" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span></p></div><div id="clozeScore162_22"></div></div></form></div></div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper objectivesIdevice em_iDevice em_iDevice_saber" id="id86">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Para saber más</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta86_324_10" class="block iDevice_content">
+<div align="justify">Una posibilidad de la función "REDONDEAR" es utilizar un número negativo en el número de decimales a redondear. En este caso, el redondeo se realiza a la izquierda del separador decimal. En la siguiente imagen puedes ver un ejemplo de este caso.</div>
+<div align="justify"></div>
+<div align="justify">
+<table cellspacing="10" border="0">
+<tbody>
+<tr>
+<td style="border: 1px solid #000000;">C1</td>
+<td>=REDONDEAR(A1;2)</td>
+<td rowspan="5"><img src="redondeo.png" alt="REDONDEAR" title="REDONDEAR" width="180" height="91" /></td>
+</tr>
+<tr>
+<td style="border: 1px solid #000000;">C2</td>
+<td>=REDONDEAR(A1;1)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000000;">C3</td>
+<td>=REDONDEAR(A1;0)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000000;">C4</td>
+<td>=REDONDEAR(A1;-1)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #000000;">C5</td>
+<td>=REDONDEAR(A1;-2)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div align="justify"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id238">
+<div class="iDevice emphasis0">
+<div id="ta238_1" class="block iDevice_content">
+<div width="425" height="344">
+<div name="movie" value="http://www.youtube.com/v/ntLiXTGNCL4?fs=1&amp;hl=es_ES&amp;rel=0"></div>
+<h3 name="allowFullScreen" value="true" class=" EducaAnd_COM">Función lógica Si</h3>
+<div name="allowscriptaccess" value="always"></div>
+</div>
+<div align="center"><object type="application/x-shockwave-flash" data="http://www.youtube.com/v/ntLiXTGNCL4?fs=1&amp;hl=es_ES&amp;rel=0" width="425" height="344"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/ntLiXTGNCL4?fs=1&amp;hl=es_ES&amp;rel=0" /></object></div>
+<div align="center"><span style="font-size: 8pt;">Tutorial Función lógica SI</span></div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper TrueFalseIdevice em_iDevice em_iDevice_question" id="id171">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Comprueba lo aprendido</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta171_16" class="block iDevice_content">
+
+</div>
+<div class="question">
+<form name="true-false-form-0b171" action="#" class="activity-form">
+<h3 class="js-sr-av">Pregunta 1</h3>
+<div id="taquestion0b171" class="block iDevice_content">
+<div align="justify">
+1) La función lógica O devuelve &quot;verdadero&quot; si todos los argumentos son &quot;verdadero&quot;. 
+</div>
+
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b171"><input type="radio" name="option0b171" id="true0b171" class="exe-radio-option exe-radio-option-0-2-0b171-truefalse" /> Verdadero</label> 
+<label for="false0b171"><input type="radio" name="option0b171" id="false0b171" class="exe-radio-option exe-radio-option-1-2-0b171-truefalse" /> Falso</label>
+</p>
+</form>
+<div id="s0b171" class="feedback js-feedback js-hidden">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<p><strong id="s0b171-result" class="wrong">Falso</strong></p>
+<div align="justify">
+La función lógica O devuelve &quot;verdadero&quot; si alguno de los argumentos son &quot;verdadero&quot;.
+</div>
+
+</div>
+</div>
+<div class="question">
+<form name="true-false-form-1b171" action="#" class="activity-form">
+<h3 class="js-sr-av">Pregunta 2</h3>
+<div id="taquestion1b171" class="block iDevice_content">
+<div align="justify">
+2) La función de información ESTEXTO devuelve &quot;falso&quot; si el valor es texto.
+</div>
+
+</div>
+<p class="iDevice_answer js-required">
+<label for="true1b171"><input type="radio" name="option1b171" id="true1b171" class="exe-radio-option exe-radio-option-0-2-1b171-truefalse" /> Verdadero</label> 
+<label for="false1b171"><input type="radio" name="option1b171" id="false1b171" class="exe-radio-option exe-radio-option-1-2-1b171-truefalse" /> Falso</label>
+</p>
+</form>
+<div id="s1b171" class="feedback js-feedback js-hidden">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<p><strong id="s1b171-result" class="wrong">Falso</strong></p>
+La función ESTEXTO devuelve &quot;verdadero&quot; si el valor es texto.
+
+</div>
+</div>
+<div class="question">
+<form name="true-false-form-2b171" action="#" class="activity-form">
+<h3 class="js-sr-av">Pregunta 3</h3>
+<div id="taquestion2b171" class="block iDevice_content">
+<div align="justify">
+3) La función de texto ENCONTRAR necesita los siguientes argumentos: &quot;texto buscado;dentro_del_texto;núm_inicial&quot;.
+</div>
+
+</div>
+<p class="iDevice_answer js-required">
+<label for="true2b171"><input type="radio" name="option2b171" id="true2b171" class="exe-radio-option exe-radio-option-0-2-2b171-truefalse" /> Verdadero</label> 
+<label for="false2b171"><input type="radio" name="option2b171" id="false2b171" class="exe-radio-option exe-radio-option-1-2-2b171-truefalse" /> Falso</label>
+</p>
+</form>
+<div id="s2b171" class="feedback js-feedback js-hidden">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<p><strong id="s2b171-result" class="right">Verdadero</strong></p>
+<div align="justify">
+La función ENCONTRAR busca un valor de texto dentro de otro tomando en cuenta las mayúsculas y minúsculas.
+</div>
+
+</div>
+</div>
+<div class="question">
+<form name="true-false-form-3b171" action="#" class="activity-form">
+<h3 class="js-sr-av">Pregunta 4</h3>
+<div id="taquestion3b171" class="block iDevice_content">
+<div align="justify">
+4) La función de hoja de cálculo ELEGIR permite elegir un valor de una lista de entre 50 argumentos.
+</div>
+
+</div>
+<p class="iDevice_answer js-required">
+<label for="true3b171"><input type="radio" name="option3b171" id="true3b171" class="exe-radio-option exe-radio-option-0-2-3b171-truefalse" /> Verdadero</label> 
+<label for="false3b171"><input type="radio" name="option3b171" id="false3b171" class="exe-radio-option exe-radio-option-1-2-3b171-truefalse" /> Falso</label>
+</p>
+</form>
+<div id="s3b171" class="feedback js-feedback js-hidden">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<p><strong id="s3b171-result" class="wrong">Falso</strong></p>
+<div align="justify">
+Permite elegir un valor de una lista de entre 30 argumentos.
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="42_clasificacin_de_funciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="44_funciones_de_fecha_y_hora.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_adultos_js.js"></script></body></html>
